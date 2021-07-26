@@ -17,7 +17,7 @@ class User:
     self.token = token 
     if self.token == None:
       raise Exception("Token argument must be filled out!")
-  def getLargeGraphqlData(self, username = None):
+  def getGraphqlData(self, username = None):#getLargeGraphqlData
     self.user = username
     if self.user == None:
       raise Exception("Username argument must be filled out!")
